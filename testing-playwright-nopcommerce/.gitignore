@@ -1,0 +1,29 @@
+# C# / .NET
+[Oo]bj/
+[Bb]in/
+*.user
+*.suo
+*.userprefs
+*.dbmdl
+
+# Visual Studio / Rider
+.vs/
+.idea/
+*.sln.docstates
+
+# Playwright
+playwright-browsers/
+.playwright/
+test-results/
+
+# Environment Variables
+# Đã được comment lại để đảm bảo bạn KHÔNG vô tình push mật khẩu của appsettings.env lên GitHub.
+# Nếu appsettings.env chỉ chứa pass test dummy, bạn có thể bỏ comment dòng dưới. Nhưng tốt nhất không nên push pass thật.
+# appsettings.env
+
+# NuGet
+packages/
+*.nupkg
+
+# MacOS
+.DS_Store
